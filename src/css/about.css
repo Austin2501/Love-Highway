@@ -1,0 +1,135 @@
+.about-bg {
+  background-color: rgba(0, 0, 0, 0.932);
+}
+
+.floral {
+  width: 200px;
+}
+
+.simply-the-best {
+  font-family: Dancing Script;
+  font-size: 20.25px;
+  color: #c7c7c7;
+  font-weight: bolder;
+  text-decoration: underline 3px;
+  text-underline-offset: 7px;
+}
+
+.dash {
+  color: #c7c7c7;
+}
+
+.head-about {
+  font-size: 45px;
+  font-family: Open Sans;
+  font-weight: 700;
+  color: #c19556;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 30px;
+  font-family: Lato, sans-serif;
+  color: #efefef;
+  text-align: justify;
+  justify-content: space-around;
+  font-weight: 500;
+}
+
+.the {
+  font-size: 40px;
+  font-family: Lato, sans-serif;
+  color: #efefef;
+  text-align: center;
+  margin-bottom: -20px;
+  padding-bottom: -20px;
+}
+
+.sign {
+  width: 280px;
+  height: 180px;
+}
+
+.rtj {
+  font-family: dancing script;
+  color: #c19556;
+}
+
+.rtj1 {
+  margin-left: -70px;
+  height: 700px;
+}
+
+.rtj2 {
+  width: 790px;
+  height: 700px;
+  margin-left: -15px;
+}
+
+.num {
+  color: #c19556;
+  font-size: 110px;
+  font-weight: 650;
+  font-family: Open Sans;
+  margin-top: -40px;
+}
+
+.rtj-title {
+  color: white;
+  font-size: 33px;
+  font-weight: 650;
+}
+
+.rtj-para {
+  color: white;
+  text-align: justify;
+
+}
+
+@media screen and (max-width: 768px) {
+  .head-about {
+    font-size: 30px;
+  }
+
+  .rtj1 {
+    width: 442px;
+    height: 302px;
+  }
+
+  .rtj2 {
+    width: 386px;
+    height: 302px;
+  }
+}
+
+/* For tablets and smaller devices */
+@media screen and (max-width: 992px) {
+  .head-about {
+    font-size: 35px; /* Adjust font size for smaller screens */
+  }
+
+  .about-text {
+    font-size: 25px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  .head-about {
+    font-size: 25px; /* Further reduce font size for mobile devices */
+  }
+
+  .about-text {
+    font-size: 20px; /* Further reduce font size for mobile devices */
+  }
+
+  .rtj1 {
+    width: 100%; /* Adjust width for full width on mobile devices */
+    height: auto; /* Adjust height to auto for mobile devices */
+  }
+
+  .rtj2 {
+    width: 100%; /* Adjust width for full width on mobile devices */
+    height: auto; /* Adjust height to auto for mobile devices */
+  }
+}

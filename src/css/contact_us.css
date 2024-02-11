@@ -1,0 +1,82 @@
+.contact-us {
+  margin-top: 10px;
+  color: #c19556;
+  font-size: 80px;
+  font-family: dancing script;
+  text-align: center;
+}
+
+.addr {
+  font-size: 16px;
+  color: #efefef;
+  text-align: center;
+}
+
+.addr2 {
+  font-size: 16px;
+  color: #efefef;
+  text-align: center;
+  margin-top: -17px;
+}
+
+.contact-detail {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.num2 {
+  color: #efefef;
+  font-family: open sans;
+  font-size: 14px;
+}
+
+.mail {
+  color: #c19556;
+  font-family: open sans;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .num2,
+  .mail {
+    font-size: 12px;
+  }
+}
+.socials {
+  color: #efefef;
+  font-size: 20px;
+  padding-left: 18px;
+}
+
+.socials:hover {
+  color: #c19556;
+  transition: 0.5s;
+}
+
+.last-line {
+  margin-top: -10px;
+  width: 100px;
+  border: #c19556 2px solid;
+  margin-left: 20px;
+}
+
+/* Responsive styles for tablets and smaller devices */
+@media screen and (max-width: 768px) {
+  .contact-us {
+    font-size: 60px;
+  }
+
+  .addr,
+  .addr2 {
+    font-size: 14px;
+  }
+
+  .num2,
+  .mail {
+    font-size: 12px;
+  }
+
+  .socials {
+    font-size: 16px;
+  }
+}

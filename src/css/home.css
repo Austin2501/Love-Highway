@@ -1,0 +1,51 @@
+.head {
+  font-size: 65px;
+  font-family: Open Sans;
+  font-weight: 600;
+  margin-top: -10px !important;
+}
+
+.tagline {
+  font-size: 21px;
+  font-family: Lato, sans-serif;
+  font-weight: 500;
+}
+
+.home-to-about {
+  color: #c19556;
+  font-size: 60px;
+  /* position: absolute; */
+
+  margin-top: -60px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .head {
+    font-size: 35px; /* Adjust font size for smaller devices */
+  }
+
+  .tagline {
+    font-size: 14px; /* Adjust font size for smaller devices */
+  }
+
+  .home-to-about {
+    font-size: 30px; /* Adjust font size for smaller devices */
+    margin-top: -30px; /* Adjust margin for smaller devices */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head {
+    font-size: 25px; /* Further adjust font size for even smaller devices */
+  }
+
+  .tagline {
+    font-size: 12px; /* Further adjust font size for even smaller devices */
+  }
+
+  .home-to-about {
+    font-size: 25px; /* Further adjust font size for even smaller devices */
+    margin-top: -25px; /* Further adjust margin for even smaller devices */
+  }
+}

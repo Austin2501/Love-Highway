@@ -1,0 +1,128 @@
+/* .chef{
+    width: 100%;
+    height: 80%;
+} */
+
+.chef-name {
+  font-size: 30px;
+  font-weight: 600;
+  color: #c19556;
+  margin-top: -180px;
+  text-align: center;
+}
+
+.chef-des {
+  font-size: 13px;
+  font-weight: 400;
+  color: #efefef;
+  text-align: center;
+  margin-top: -17px;
+}
+
+.out {
+  width: 250px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.insta {
+  width: 100%;
+  height: 100%;
+}
+
+.out:hover .insta {
+  transform: scale(1.1);
+  transition: 0.9s;
+}
+
+.insta-flex {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .insta-flex {
+    display: block;
+  }
+  .out {
+    width: 100%;
+  }
+
+  .chef-name {
+    margin-top: -220px;
+  }
+}
+
+.chef {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.chef-container:hover .chef {
+  opacity: 0.3;
+}
+
+.overlay {
+  height: 100%;
+  width: 90%;
+  position: relative;
+  top: -350px;
+  left: 10px;
+  color: white;
+
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.chef-container:hover .overlay {
+  opacity: 1;
+}
+
+.text-demo {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: dancing script;
+}
+
+.text-demo2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Responsive styles for tablets and smaller devices */
+@media screen and (max-width: 992px) {
+  .insta-flex {
+    display: block;
+  }
+  .out {
+    width: 100%;
+  }
+
+  .chef-name {
+    margin-top: -220px;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 768px) {
+  .chef-name {
+    font-size: 25px;
+    margin-top: -180px;
+  }
+  
+  .chef-des {
+    font-size: 12px;
+    margin-top: -15px;
+  }
+
+  .out {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+  }
+}

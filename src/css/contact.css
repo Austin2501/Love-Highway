@@ -1,0 +1,70 @@
+.contact {
+  height: 600px;
+  width: 900px;
+  background-color: none;
+  margin-top: -650px;
+}
+
+.book-head {
+  font-size: 45px;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #efefef;
+  text-align: center;
+}
+
+.book-text {
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  color: #efefef;
+  justify-content: space-evenly;
+  font-weight: 500;
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.input-field {
+  background-color: rgba(0, 0, 0, 0.767);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 35px;
+  font-size: 12px;
+}
+
+.book-btn {
+  background-color: #c19556;
+  color: white;
+  border: none;
+  width: 250px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    height: auto; /* Adjust height to auto for smaller screens */
+    width: 100%; /* Adjust width to full width for smaller screens */
+    margin-top: -850px; /* Adjust margin-top for smaller screens */
+  }
+
+  .book-head {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .book-text {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .date {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
